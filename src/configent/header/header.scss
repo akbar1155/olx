@@ -1,0 +1,65 @@
+.header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    max-width: 1250px;
+    width: 100%;
+    color: #fff;
+    // padding-right: 20px;
+    height: 76px;
+    background-color: #002F34;
+
+    &__logo {
+        margin-left: 80px;
+    }
+
+    &__nav {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+
+        &__podat {
+            background-color: #fff;
+            width: 200px;
+            margin-right: 15px;
+            height: 50px;
+            border: none;
+            border-radius: 10px;
+            font-size: 17px;
+            color: black;
+        }
+
+        &__message {
+
+            background-color: #002F34;
+            color: #fff;
+            border: none;
+            font-size: 16px;
+        }
+
+        &__heart {
+
+            background-color: #002F34;
+            color: #fff;
+            border: none;
+            font-size: 20px;
+        }
+
+        &__profil {
+
+            background-color: #002F34;
+            color: #fff;
+            border: none;
+            font-size: 16px;
+        }
+    }
+
+}
+
+.df {
+    display: flex;
+    gap: 10px;
+}
+.yurak{
+    font-size: 20px;
+}
